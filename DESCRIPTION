@@ -1,11 +1,16 @@
 Package: affypdnn
-Type: Package
-Title: What the Package Does (Title Case)
-Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
-Encoding: UTF-8
-LazyData: true
+Version: 1.32.0
+Date: 2009-09-22
+Title: Probe Dependent Nearest Neighbours (PDNN) for the affy package
+Author: H. Bjorn Nielsen and Laurent Gautier (Many thanks to Li Zhang
+        early communications about the existence of the PDNN program
+        and related publications).
+Maintainer: Laurent Gautier<lgautier@gmail.com>
+Depends: R (>= 2.13.0), affy (>= 1.5)
+Suggests: affydata, hgu95av2probe
+Description: The package contains functions to perform the PDNN method
+        described by Li Zhang et al.
+License: LGPL
+biocViews: OneChannel, Microarray, Preprocessing
+Packaged: 2012-10-02 02:51:02 UTC; biocbuild
+InstallableEverywhere: yes
